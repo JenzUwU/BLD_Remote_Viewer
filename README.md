@@ -4,6 +4,10 @@ A local-only mini TeamViewer for the browser. Spin up a Docker container with Ch
 
 Everything runs on `localhost`. No cloud. No deployment.
 
+## Working Proof
+
+![Working Proof](working_proof.png)
+
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) (running)
