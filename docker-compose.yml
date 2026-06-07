@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "4000:4000"
+    environment:
+      - BACKEND_PORT=4000
+      - VNC_PORT=5900
+      - CDP_PORT=9222
+      - DOCKER_IMAGE=bld-browser
+      - FRAME_RATE=15
+      - VIEWPORT_W=1280
+      - VIEWPORT_H=800
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

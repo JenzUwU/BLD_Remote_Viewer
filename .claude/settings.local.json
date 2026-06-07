@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker version *)",
+      "Bash(ffmpeg -version)",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":4000 :3000\")",
+      "PowerShell(npm start --prefix backend)",
+      "PowerShell(try { \\(Invoke-WebRequest -Uri http://localhost:4000/health -UseBasicParsing -TimeoutSec 5\\).Content } catch { \"health endpoint: $\\($_.Exception.Message\\)\" })"
+    ]
+  }
+}

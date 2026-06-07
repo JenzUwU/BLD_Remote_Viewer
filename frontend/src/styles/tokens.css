@@ -1,0 +1,14 @@
+:root {
+  --yankees: #0d273d;
+  --teal: #3e6985;
+  --pewter: #8aa7bc;
+  --pastel: #a6bed1;
+  --columbia: #cdd7df;
+  --offwhite: #f0f4f6;
+
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+
+  --viewport-w: 1280;
+  --viewport-h: 800;
+}
