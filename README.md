@@ -44,6 +44,8 @@ Open **http://localhost:3000**, click **Start Browser**, and wait for the live s
 
 ## How It Works
 
+![Architecture Diagram](Architecture_diagram.png)
+
 ```
 Web UI (localhost:3000)
     │  WebSocket
