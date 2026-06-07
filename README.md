@@ -6,7 +6,7 @@ Everything runs on `localhost`. No cloud. No deployment.
 
 ## Working Proof
 
-![Working Proof](working_proof.png)
+![Working Proof](frontend/src/working_proof.png)
 
 ## Prerequisites
 
